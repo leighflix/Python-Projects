@@ -1,5 +1,7 @@
 __author__ = 'leigh'
 
+# Valid Telephone numbers: 1234567890, 123-456-7890, 123.456.7890, (123)456-7890, (123) 456-7890
+
 # function from "mhawke" from stack over flow or from here:
 # (http://stackoverflow.com/questions/1157106/remove-all-occurences-of-a-value-from-a-python-list)
 def remove_values_from_list(the_list, val):
