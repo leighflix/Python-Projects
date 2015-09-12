@@ -1,2 +1,2 @@
 # Small-Projects
-This is a repository of small projects, largest consisting of 1 .py file.
+This is a repository of small projects I make on my free time, usually for helping me learn python.
