@@ -1,5 +1,6 @@
 __author__ = 'leigh'
 
+# Improve this file.
 
 # "en" stands for "encrypted"
 # "de" stands for "decrypted"
@@ -22,6 +23,7 @@ def encrypt(en_msg, en_shift):
         encrypted_msg += en_final_letter
     return encrypted_msg
 
+# return ''.join([])   EXAMPLE
 
 # fundamentally the same as "encrypt(#, #)"
 def decrypt(de_msg, de_shift):
