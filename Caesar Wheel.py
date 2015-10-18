@@ -6,6 +6,10 @@ __author__ = 'leigh'
 # "de" stands for "decrypted"
 
 def encrypt(en_msg, en_shift):
+    """
+    en_msg: A string that will be encrypted, and returned as the string "encrpyted_msg"
+    en_shift: An Integar that will shift the letters.
+    """
     encrypted_msg = ""
     # for every letter(character) in the [String](en_msg)
     for letter in en_msg:
@@ -29,6 +33,10 @@ def encrypt(en_msg, en_shift):
 
 # fundamentally the same as "encrypt(#, #)"
 def decrypt(de_msg, de_shift):
+    """
+    de_msg: A string that will be decrypted, and returned as the string "decrypted_msg"
+    de_shift: An Integar that will shift the letters.
+    """
     decrypted_msg = ""
     for letter in de_msg:
         if letter.isalpha():
